@@ -1,0 +1,36 @@
+﻿<Window x:Class="CalculatorProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculatorProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="oneButton" Content="1" Click="Button_Click" Margin="162,114,601,290"/>
+        <Button x:Name="twoButton" Content="2" Click="Button_Click" Margin="204,114,559,290"/>
+        <Button x:Name="threeButton" Content="3" Click="Button_Click" Margin="246,114,517,290"/>
+        <Button x:Name="fourButton" Content="4" Click="Button_Click" Margin="162,149,601,255"/>
+        <Button x:Name="fiveButton" Content="5" Click="Button_Click" Margin="204,149,559,255"/>
+        <Button x:Name="sixButton" Content="6" Click="Button_Click" Margin="246,149,517,255"/>
+        <Button x:Name="sevenButton" Content="7" Click="Button_Click" Margin="162,184,601,220"/>
+        <Button x:Name="eightButton" Content="8" Click="Button_Click" Margin="204,184,559,220"/>
+        <Button x:Name="nineButton" Content="9" Click="Button_Click" Margin="246,184,517,220"/>
+        <Button x:Name="zeroButton" Content="0" Click="Button_Click" Margin="162,219,559,185"/>
+        <Button x:Name="decimalButton" Content="." Click="Button_Click" Margin="246,219,517,185"/>
+        <Button x:Name="divisionButton" Content="/" Click="Button_Click" Margin="288,114,475,290"/>
+        <Button x:Name="clearButton" Content="C" Click="Button_Click" Margin="246,79,517,325"/>
+        <Button x:Name="clearEntryButton" Content="CE" Click="Button_Click" Margin="204,79,559,325"/>
+        <Button x:Name="backSpaceButton" Content="&lt;=" Click="Button_Click" Margin="162,79,601,325"/>
+        <Button x:Name="multiplicationButton" Content="*" Click="Button_Click" Margin="288,149,475,255"/>
+        <Button x:Name="minusButton" Content="-" Click="Button_Click" Margin="288,184,475,220"/>
+        <Button x:Name="plusButton" Content="+" Click="Button_Click" Margin="288,219,475,185"/>
+        <Button x:Name="positiveOrNegativeButton" Content="±" Click="Button_Click" Margin="288,79,475,325"/>
+        <Button x:Name="equalButton" Content="=" Click="Button_Click" Margin="330,184,433,185"/>
+        <Button x:Name="oneOverNumberButton" Content="1/x" Click="Button_Click" Margin="330,149,433,255"/>
+        <Button x:Name="percentageButton" Content="%" Click="Button_Click" Margin="330,114,433,290"/>
+        <Button x:Name="squareRootButton" Content="√" Click="Button_Click" Margin="330,79,433,325"/>
+        <TextBox Text="TextBox" TextWrapping="Wrap" Margin="162,254,433,133"/>
+
+    </Grid>
+</Window>
